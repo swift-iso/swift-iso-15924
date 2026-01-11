@@ -3,7 +3,7 @@
 //
 // Script code representation per ISO 15924
 
-import Standards
+import Standard_Library_Extensions
 
 /// Namespace for ISO 15924 script code types
 ///

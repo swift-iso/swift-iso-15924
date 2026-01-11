@@ -3,7 +3,7 @@
 //
 // Error types for ISO 15924 validation
 
-import Standards
+import Standard_Library_Extensions
 
 extension ISO_15924 {
     /// Errors that can occur when working with script codes

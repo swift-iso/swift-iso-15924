@@ -7,7 +7,7 @@
 // Generated from JSON data files using Scripts/generate-script-codes.swift
 // To update: modify JSON files in Resources/ then run: swift Scripts/generate-script-codes.swift
 
-import Standards
+import Standard_Library_Extensions
 
 extension ISO_15924 {
     /// Mapping from ISO 15924 alpha-4 (4-letter) to numeric codes

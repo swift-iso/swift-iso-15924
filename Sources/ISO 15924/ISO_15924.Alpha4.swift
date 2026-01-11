@@ -4,7 +4,7 @@
 // Four-letter script code (ISO 15924 alpha-4)
 
 import INCITS_4_1986
-import Standards
+import Standard_Library_Extensions
 
 extension ISO_15924 {
     /// Four-letter script code per ISO 15924
