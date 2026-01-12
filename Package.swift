@@ -11,7 +11,7 @@ extension String { var tests: Self { self + " Tests" } }
 extension Target.Dependency {
     static var iso15924: Self { .target(name: .iso15924) }
     static var standards: Self { .product(name: "Standard Library Extensions", package: "swift-standard-library-extensions") }
-    static var incits_4_1986: Self { .product(name: "INCITS 4 1986", package: "swift-incits-4-1986") }
+    static var incits_4_1986: Self { .product(name: "ASCII", package: "swift-ascii") }
     static var standardsTestSupport: Self { .product(name: "Test Primitives", package: "swift-test-primitives") }
 }
 
@@ -29,7 +29,7 @@ let package = Package(
     dependencies: [
         .package(path: "../../swift-primitives/swift-standard-library-extensions"),
         .package(path: "../../swift-primitives/swift-test-primitives"),
-        .package(path: "../swift-incits-4-1986")
+        .package(path: "../../swift-foundations/swift-ascii")
     ],
     targets: [
         .target(

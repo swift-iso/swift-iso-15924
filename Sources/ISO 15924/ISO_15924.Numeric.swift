@@ -3,7 +3,7 @@
 //
 // Numeric script code (ISO 15924 numeric)
 
-import INCITS_4_1986
+import ASCII
 import Standard_Library_Extensions
 
 extension ISO_15924 {
