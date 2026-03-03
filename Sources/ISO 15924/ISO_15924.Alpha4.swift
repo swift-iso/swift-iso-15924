@@ -34,7 +34,7 @@ extension ISO_15924 {
         ///
         /// - Parameter value: Four-letter code string
         /// - Throws: `Alpha4.Error` if invalid
-        public init(_ value: some StringProtocol) throws {
+        public init(_ value: some StringProtocol) throws(Error) {
             // Normalize to title case
             let normalized = String(value.prefix(1).uppercased() + value.dropFirst().lowercased())
 

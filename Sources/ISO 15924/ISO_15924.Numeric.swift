@@ -33,7 +33,7 @@ extension ISO_15924 {
         ///
         /// - Parameter value: Three-digit numeric code string
         /// - Throws: `Numeric.Error` if invalid
-        public init(_ value: some StringProtocol) throws {
+        public init(_ value: some StringProtocol) throws(Error) {
             let normalized = String(value)
 
             // Validate length
