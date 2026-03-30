@@ -3,7 +3,7 @@
 //
 // Numeric script code (ISO 15924 numeric)
 
-import ASCII
+import ASCII_Primitives
 import Standard_Library_Extensions
 
 extension ISO_15924 {
