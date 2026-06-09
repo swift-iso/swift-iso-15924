@@ -30,7 +30,7 @@ func escapeIfNeeded(_ code: String) -> String {
 // MARK: - Load Data
 
 func loadScripts() throws -> [Script] {
-    let resourcesPath = "Sources/ISO 15924/Resources/iso-15924.json"
+    let resourcesPath = "Sources/ISO 15924/Data/iso-15924.json"
     let data = try Data(contentsOf: URL(fileURLWithPath: resourcesPath))
     return try JSONDecoder().decode([Script].self, from: data)
 }
