@@ -14,7 +14,6 @@ extension Target.Dependency {
     static var iso15924: Self { .target(name: .iso15924) }
     static var standards: Self { .product(name: "Standard Library Extensions", package: "swift-standard-library-extensions") }
     static var incits_4_1986: Self { .product(name: "ASCII Primitives", package: "swift-ascii-primitives") }
-    static var standardsTestSupport: Self { .product(name: "Test Primitives", package: "swift-test-primitives") }
 }
 
 let package = Package(
