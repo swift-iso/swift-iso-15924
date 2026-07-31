@@ -22,28 +22,3 @@ extension ISO_15924 {
     }
 }
 
-extension ISO_15924.Alpha4 {
-    public enum Error: Swift.Error, Sendable, Equatable {
-        /// Code length is invalid (must be 4)
-        case invalidCodeLength(Int)
-
-        /// Code contains invalid characters (must be ASCII letters only)
-        case invalidCharacters(String)
-
-        /// Four-letter code is not recognized
-        case invalidAlpha4Code(String)
-    }
-}
-
-extension ISO_15924.Numeric {
-    public enum Error: Swift.Error, Sendable, Equatable {
-        /// Code length is invalid (must be 3)
-        case invalidCodeLength(Int)
-
-        /// Code contains invalid characters (must be ASCII digits only)
-        case invalidCharacters(String)
-
-        /// Numeric code is not recognized
-        case invalidNumericCode(String)
-    }
-}
