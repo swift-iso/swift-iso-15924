@@ -2,8 +2,6 @@
 
 import PackageDescription
 
-
-
 extension String {
     static let iso15924: Self = "ISO 15924"
 }
@@ -12,8 +10,12 @@ extension String { var tests: Self { self + " Tests" } }
 
 extension Target.Dependency {
     static var iso15924: Self { .target(name: .iso15924) }
-    static var standards: Self { .product(name: "Standard Library Extensions", package: "swift-standard-library-extensions") }
-    static var incits_4_1986: Self { .product(name: "ASCII Primitives", package: "swift-ascii-primitives") }
+    static var standards: Self {
+        .product(name: "Standard Library Extensions", package: "swift-standard-library-extensions")
+    }
+    static var incits_4_1986: Self {
+        .product(name: "ASCII Primitives", package: "swift-ascii-primitives")
+    }
 }
 
 let package = Package(
@@ -22,30 +24,36 @@ let package = Package(
         .macOS(.v26),
         .iOS(.v26),
         .tvOS(.v26),
-        .watchOS(.v26)
+        .watchOS(.v26),
     ],
     products: [
         .library(name: "ISO 15924", targets: ["ISO 15924"])
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-primitives/swift-standard-library-extensions.git", branch: "main"),
-        .package(url: "https://github.com/swift-primitives/swift-ascii-primitives.git", branch: "main")
+        .package(
+            url: "https://github.com/swift-primitives/swift-standard-library-extensions.git",
+            branch: "main"
+        ),
+        .package(
+            url: "https://github.com/swift-primitives/swift-ascii-primitives.git",
+            branch: "main"
+        ),
     ],
     targets: [
         .target(
             name: "ISO 15924",
             dependencies: [
                 .standards,
-                .incits_4_1986
+                .incits_4_1986,
             ],
             resources: [
                 .copy("Resources")
-    ]
+            ]
         ),
         .testTarget(
             name: "ISO 15924 Tests",
             dependencies: [
-                "ISO 15924",
+                "ISO 15924"
             ]
         ),
     ],

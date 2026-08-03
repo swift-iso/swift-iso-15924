@@ -21,4 +21,3 @@ extension ISO_15924 {
         case invalidNumericCode(String)
     }
 }
-
