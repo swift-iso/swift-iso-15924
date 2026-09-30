@@ -9,6 +9,10 @@ extension ISO_15924 {
 
         public init(_ value: some StringProtocol) throws(Error) {
 
+            guard value.allSatisfy(\.isASCII) else {
+                throw Alpha4.Error.invalidCharacters(String(value))
+            }
+
             let normalized = String(value.prefix(1).uppercased() + value.dropFirst().lowercased())
 
             guard normalized.count == 4 else {
