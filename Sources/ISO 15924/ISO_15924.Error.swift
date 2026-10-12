@@ -2,7 +2,7 @@ import Standard_Library_Extensions
 
 extension ISO_15924 {
 
-    public enum Error: Swift.Error, Sendable, Equatable {
+    public enum Error: Swift::Error, Sendable, Equatable {
 
         case invalidCodeLength(Int)
 
