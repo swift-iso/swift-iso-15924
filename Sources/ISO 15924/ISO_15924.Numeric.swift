@@ -59,7 +59,9 @@ extension ISO_15924.Numeric {
 
     public init(_ alpha4: ISO_15924.Alpha4) {
 
-        let numeric = ISO_15924.alpha4ToNumeric[alpha4]!
+        guard let numeric = ISO_15924.alpha4ToNumeric[alpha4] else {
+            preconditionFailure("Every ISO 15924 alpha-4 code has a numeric code")
+        }
         self = numeric
     }
 }
