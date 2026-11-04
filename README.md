@@ -1,35 +1,13 @@
 # swift-iso-15924
 
-![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
+Use this package when you need to validate, store or convert ISO 15924 script codes, such as `Latn` for Latin or `215` for the same script as a number. Start from `ISO_15924.Alpha4` for the four-letter form and from `ISO_15924.Numeric` for the three-digit form. For language codes use swift-iso-639, and for country codes use swift-iso-3166.
 
-The four-letter script codes of ISO 15924.
+## Laws
 
-## Standard Reference
-
-- **ISO**: 15924
-- **Title**: Codes for the representation of names of scripts
-
-## Installation
-
-Add the package to your `Package.swift` dependencies:
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/swift-iso/swift-iso-15924.git", from: "0.1.4")
-]
-```
-
-Add the product to a target that needs it:
-
-```swift
-.target(
-    name: "YourTarget",
-    dependencies: [
-        .product(name: "ISO 15924", package: "swift-iso-15924")
-    ]
-)
-```
-
-## License
-
-Apache 2.0. See [LICENSE.md](LICENSE.md).
+- A code is valid only if it is one of the 226 codes in the package's table. Any other code, such as `Xxxx` or `001`, is refused.
+- Of the private-use range, only its two ends are in the table: `Qaaa` (`900`) and `Qabx` (`949`). A code between them, such as Qaab or 901, is refused.
+- Letter codes are case-insensitive on input and always stored in title case, so `latn`, `LATN` and `lAtN` all give `Latn`.
+- Letter input must be ASCII. A character that only case-maps to an ASCII letter, such as the Kelvin sign, is refused.
+- A numeric code is exactly three ASCII digits and keeps its leading zeros, as in `050`.
+- Converting between the two forms never fails and round-trips for every code.
+- Both types encode as a single string, their stored form, and decoding validates the string the same way the initializer does.
