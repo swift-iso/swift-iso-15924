@@ -3,8 +3,8 @@ import Testing
 
 @testable import ISO_15924
 
-@Suite("ISO 15924 Script Codes")
-struct ISO15924Tests {
+@Suite
+struct `ISO 15924 Script Codes` {
     @Suite
     struct Unit {
 
