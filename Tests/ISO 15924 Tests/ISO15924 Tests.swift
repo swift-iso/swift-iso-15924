@@ -124,15 +124,15 @@ extension `ISO15924 Tests` {
             }
 
             @Test
-            func `CaseIterable: Alpha4 has all 226 codes`() {
-                #expect(ISO_15924.Alpha4.allCases.count == 226)
+            func `CaseIterable: Alpha4 has all 274 codes`() {
+                #expect(ISO_15924.Alpha4.allCases.count == 274)
                 #expect(ISO_15924.Alpha4.allCases.contains(.Latn))
                 #expect(ISO_15924.Alpha4.allCases.contains(.Cyrl))
             }
 
             @Test
-            func `CaseIterable: Numeric has all 226 codes`() {
-                #expect(ISO_15924.Numeric.allCases.count == 226)
+            func `CaseIterable: Numeric has all 274 codes`() {
+                #expect(ISO_15924.Numeric.allCases.count == 274)
                 #expect(ISO_15924.Numeric.allCases.contains(.`215`))
                 #expect(ISO_15924.Numeric.allCases.contains(.`220`))
             }

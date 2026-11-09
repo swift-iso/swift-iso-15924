@@ -436,6 +436,102 @@ extension ISO_15924.Numeric {
 
     public static let `900` = ISO_15924.Numeric(unchecked: "900")
 
+    public static let `901` = ISO_15924.Numeric(unchecked: "901")
+
+    public static let `902` = ISO_15924.Numeric(unchecked: "902")
+
+    public static let `903` = ISO_15924.Numeric(unchecked: "903")
+
+    public static let `904` = ISO_15924.Numeric(unchecked: "904")
+
+    public static let `905` = ISO_15924.Numeric(unchecked: "905")
+
+    public static let `906` = ISO_15924.Numeric(unchecked: "906")
+
+    public static let `907` = ISO_15924.Numeric(unchecked: "907")
+
+    public static let `908` = ISO_15924.Numeric(unchecked: "908")
+
+    public static let `909` = ISO_15924.Numeric(unchecked: "909")
+
+    public static let `910` = ISO_15924.Numeric(unchecked: "910")
+
+    public static let `911` = ISO_15924.Numeric(unchecked: "911")
+
+    public static let `912` = ISO_15924.Numeric(unchecked: "912")
+
+    public static let `913` = ISO_15924.Numeric(unchecked: "913")
+
+    public static let `914` = ISO_15924.Numeric(unchecked: "914")
+
+    public static let `915` = ISO_15924.Numeric(unchecked: "915")
+
+    public static let `916` = ISO_15924.Numeric(unchecked: "916")
+
+    public static let `917` = ISO_15924.Numeric(unchecked: "917")
+
+    public static let `918` = ISO_15924.Numeric(unchecked: "918")
+
+    public static let `919` = ISO_15924.Numeric(unchecked: "919")
+
+    public static let `920` = ISO_15924.Numeric(unchecked: "920")
+
+    public static let `921` = ISO_15924.Numeric(unchecked: "921")
+
+    public static let `922` = ISO_15924.Numeric(unchecked: "922")
+
+    public static let `923` = ISO_15924.Numeric(unchecked: "923")
+
+    public static let `924` = ISO_15924.Numeric(unchecked: "924")
+
+    public static let `925` = ISO_15924.Numeric(unchecked: "925")
+
+    public static let `926` = ISO_15924.Numeric(unchecked: "926")
+
+    public static let `927` = ISO_15924.Numeric(unchecked: "927")
+
+    public static let `928` = ISO_15924.Numeric(unchecked: "928")
+
+    public static let `929` = ISO_15924.Numeric(unchecked: "929")
+
+    public static let `930` = ISO_15924.Numeric(unchecked: "930")
+
+    public static let `931` = ISO_15924.Numeric(unchecked: "931")
+
+    public static let `932` = ISO_15924.Numeric(unchecked: "932")
+
+    public static let `933` = ISO_15924.Numeric(unchecked: "933")
+
+    public static let `934` = ISO_15924.Numeric(unchecked: "934")
+
+    public static let `935` = ISO_15924.Numeric(unchecked: "935")
+
+    public static let `936` = ISO_15924.Numeric(unchecked: "936")
+
+    public static let `937` = ISO_15924.Numeric(unchecked: "937")
+
+    public static let `938` = ISO_15924.Numeric(unchecked: "938")
+
+    public static let `939` = ISO_15924.Numeric(unchecked: "939")
+
+    public static let `940` = ISO_15924.Numeric(unchecked: "940")
+
+    public static let `941` = ISO_15924.Numeric(unchecked: "941")
+
+    public static let `942` = ISO_15924.Numeric(unchecked: "942")
+
+    public static let `943` = ISO_15924.Numeric(unchecked: "943")
+
+    public static let `944` = ISO_15924.Numeric(unchecked: "944")
+
+    public static let `945` = ISO_15924.Numeric(unchecked: "945")
+
+    public static let `946` = ISO_15924.Numeric(unchecked: "946")
+
+    public static let `947` = ISO_15924.Numeric(unchecked: "947")
+
+    public static let `948` = ISO_15924.Numeric(unchecked: "948")
+
     public static let `949` = ISO_15924.Numeric(unchecked: "949")
 
     public static let `993` = ISO_15924.Numeric(unchecked: "993")

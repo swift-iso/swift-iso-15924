@@ -312,6 +312,102 @@ extension ISO_15924.Alpha4 {
 
     public static let Qaaa = ISO_15924.Alpha4(unchecked: "Qaaa")
 
+    public static let Qaab = ISO_15924.Alpha4(unchecked: "Qaab")
+
+    public static let Qaac = ISO_15924.Alpha4(unchecked: "Qaac")
+
+    public static let Qaad = ISO_15924.Alpha4(unchecked: "Qaad")
+
+    public static let Qaae = ISO_15924.Alpha4(unchecked: "Qaae")
+
+    public static let Qaaf = ISO_15924.Alpha4(unchecked: "Qaaf")
+
+    public static let Qaag = ISO_15924.Alpha4(unchecked: "Qaag")
+
+    public static let Qaah = ISO_15924.Alpha4(unchecked: "Qaah")
+
+    public static let Qaai = ISO_15924.Alpha4(unchecked: "Qaai")
+
+    public static let Qaaj = ISO_15924.Alpha4(unchecked: "Qaaj")
+
+    public static let Qaak = ISO_15924.Alpha4(unchecked: "Qaak")
+
+    public static let Qaal = ISO_15924.Alpha4(unchecked: "Qaal")
+
+    public static let Qaam = ISO_15924.Alpha4(unchecked: "Qaam")
+
+    public static let Qaan = ISO_15924.Alpha4(unchecked: "Qaan")
+
+    public static let Qaao = ISO_15924.Alpha4(unchecked: "Qaao")
+
+    public static let Qaap = ISO_15924.Alpha4(unchecked: "Qaap")
+
+    public static let Qaaq = ISO_15924.Alpha4(unchecked: "Qaaq")
+
+    public static let Qaar = ISO_15924.Alpha4(unchecked: "Qaar")
+
+    public static let Qaas = ISO_15924.Alpha4(unchecked: "Qaas")
+
+    public static let Qaat = ISO_15924.Alpha4(unchecked: "Qaat")
+
+    public static let Qaau = ISO_15924.Alpha4(unchecked: "Qaau")
+
+    public static let Qaav = ISO_15924.Alpha4(unchecked: "Qaav")
+
+    public static let Qaaw = ISO_15924.Alpha4(unchecked: "Qaaw")
+
+    public static let Qaax = ISO_15924.Alpha4(unchecked: "Qaax")
+
+    public static let Qaay = ISO_15924.Alpha4(unchecked: "Qaay")
+
+    public static let Qaaz = ISO_15924.Alpha4(unchecked: "Qaaz")
+
+    public static let Qaba = ISO_15924.Alpha4(unchecked: "Qaba")
+
+    public static let Qabb = ISO_15924.Alpha4(unchecked: "Qabb")
+
+    public static let Qabc = ISO_15924.Alpha4(unchecked: "Qabc")
+
+    public static let Qabd = ISO_15924.Alpha4(unchecked: "Qabd")
+
+    public static let Qabe = ISO_15924.Alpha4(unchecked: "Qabe")
+
+    public static let Qabf = ISO_15924.Alpha4(unchecked: "Qabf")
+
+    public static let Qabg = ISO_15924.Alpha4(unchecked: "Qabg")
+
+    public static let Qabh = ISO_15924.Alpha4(unchecked: "Qabh")
+
+    public static let Qabi = ISO_15924.Alpha4(unchecked: "Qabi")
+
+    public static let Qabj = ISO_15924.Alpha4(unchecked: "Qabj")
+
+    public static let Qabk = ISO_15924.Alpha4(unchecked: "Qabk")
+
+    public static let Qabl = ISO_15924.Alpha4(unchecked: "Qabl")
+
+    public static let Qabm = ISO_15924.Alpha4(unchecked: "Qabm")
+
+    public static let Qabn = ISO_15924.Alpha4(unchecked: "Qabn")
+
+    public static let Qabo = ISO_15924.Alpha4(unchecked: "Qabo")
+
+    public static let Qabp = ISO_15924.Alpha4(unchecked: "Qabp")
+
+    public static let Qabq = ISO_15924.Alpha4(unchecked: "Qabq")
+
+    public static let Qabr = ISO_15924.Alpha4(unchecked: "Qabr")
+
+    public static let Qabs = ISO_15924.Alpha4(unchecked: "Qabs")
+
+    public static let Qabt = ISO_15924.Alpha4(unchecked: "Qabt")
+
+    public static let Qabu = ISO_15924.Alpha4(unchecked: "Qabu")
+
+    public static let Qabv = ISO_15924.Alpha4(unchecked: "Qabv")
+
+    public static let Qabw = ISO_15924.Alpha4(unchecked: "Qabw")
+
     public static let Qabx = ISO_15924.Alpha4(unchecked: "Qabx")
 
     public static let Ranj = ISO_15924.Alpha4(unchecked: "Ranj")
