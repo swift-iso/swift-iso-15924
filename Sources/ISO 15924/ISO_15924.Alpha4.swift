@@ -9,7 +9,7 @@ extension ISO_15924 {
 
         public init(_ value: some StringProtocol) throws(Error) {
 
-            guard value.allSatisfy(\.isASCII) else {
+            guard value.allSatisfy({ $0.isASCII }) else {
                 throw Alpha4.Error.invalidCharacters(String(value))
             }
 
