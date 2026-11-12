@@ -42,18 +42,20 @@ extension ISO_15924.Numeric: CustomStringConvertible {
     public var description: String { value }
 }
 
-extension ISO_15924.Numeric: Codable {
-    public func encode(to encoder: any Encoder) throws {
-        var container = encoder.singleValueContainer()
-        try container.encode(value)
-    }
+#if !hasFeature(Embedded)
+    extension ISO_15924.Numeric: Codable {
+        public func encode(to encoder: any Encoder) throws {
+            var container = encoder.singleValueContainer()
+            try container.encode(value)
+        }
 
-    public init(from decoder: any Decoder) throws {
-        let container = try decoder.singleValueContainer()
-        let string = try container.decode(String.self)
-        try self.init(string)
+        public init(from decoder: any Decoder) throws {
+            let container = try decoder.singleValueContainer()
+            let string = try container.decode(String.self)
+            try self.init(string)
+        }
     }
-}
+#endif
 
 extension ISO_15924.Numeric {
 
